@@ -1,0 +1,14 @@
+{
+    "java.jdt.ls.vmargs": "-javaagent:/home/debian/.config/coc/extensions/lombok/lombok-1.18.34.jar",
+    "java.format.settings.url": "/home/debian/.m2/eclipse-java-google-style.xml",
+    "languageserver": {
+        "go": {
+            "command": "gopls",
+            "rootPatterns": ["go.work", "go.mod", ".vim/", ".git/", ".hg/"],
+            "filetypes": ["go"],
+            "initializationOptions": {
+                "usePlaceholders": true
+            }
+        }
+    }
+}
